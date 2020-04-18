@@ -1,0 +1,59 @@
+/* 应用组件主题配置 */
+@primaryColor: #e14c46;//主色
+@hoverColor: #d7332c;//按钮hover色
+
+#app{
+    .u-table,.u-pagination,.u-select-dropdown,.u-select-dropdown-menu,.u-select,.u-select-selection,.u-select-selection-placeholder,.datepicker-container,.u-form-control,.u-button,.u-dropdown,.u-modal .u-modal-body{
+    	font-size:13px !important;
+    }
+
+    .nc-tabs{
+        .u-tabs-bar{
+            padding: 0 20px;
+            margin-bottom: 0;
+            border-bottom: none;
+            .u-tabs.ink-bar{
+                background-color: @primaryColor;
+            }
+            .u-tabs-tab {
+                font-size: 13px;
+                color: #555555;
+            }
+            .u-tabs-tab-active,.u-tabs-tab:hover {
+                color: @primaryColor;
+            }
+        }
+    }
+
+    //表单
+    .ac-form-layout {
+        &-item {
+            &.error {
+                .u-form-control,
+                .u-input-number,
+                .u-input-number.u-input-group.simple .u-input-group-btn {
+                    border-color: @primaryColor;
+                }
+    
+                .u-input-number.u-input-group.simple .u-input-group-btn .icon-group .plus,
+                .u-input-number.u-input-group.simple .u-input-group-btn .icon-group .reduce {
+                    color: @primaryColor;
+                }
+                .container-refer{//mdf参照
+                    .ant-search-input-wrapper{
+                        .ant-input{
+                            border-color: @primaryColor;
+                        }
+                    }
+                }
+            }
+            &-error-msg {
+                color: @primaryColor;
+            }
+        }
+        &-mast {
+            color: @primaryColor;
+        }
+    
+    }
+}

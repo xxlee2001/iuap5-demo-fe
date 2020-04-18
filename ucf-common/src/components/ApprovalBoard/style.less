@@ -1,0 +1,37 @@
+.approval-board{
+    cursor: pointer;
+    color: #0073e1;
+    &-operation{
+        color: #0073E1;
+        cursor: pointer;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    &-modal{
+        .ac-grids-wrapper{
+            .ac-grids-wrapper-pages{
+                display: none;
+            }
+            th.text-center .title-con{
+                width: 100%;
+                text-align: center;
+                padding-left: 20px;
+            }
+        }
+        &-backdrop{
+            z-index: 500!important;
+            .dialog{
+                z-index: 400!important;
+            }
+        }
+    }
+    &-modal2{
+        .u-checkbox .u-checkbox-label:before{
+            top: -9px;
+        }
+        .u-checkbox .u-checkbox-label:after{
+            top: -9px;
+        }
+    }
+}

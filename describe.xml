@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <name>iuap5-demo-fe</name>
+    <code>iuap5-demo-fe</code>
+    <serviceType>NG-FRONT-END</serviceType>
+
+    <!-- 重点是把变化的配置文件都要列出来 -->
+<configUrls>
+<configUrl>
+<source>/ucf-publish/vendor.js</source>
+<dest>/ucf-publish/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/department/index.html</source>
+<dest>/ucf-publish/department/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/department/index.js</source>
+<dest>/ucf-publish/department/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/edit-modal/index.html</source>
+<dest>/ucf-publish/edit-modal/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/edit-modal/index.js</source>
+<dest>/ucf-publish/edit-modal/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/purchase-new/index.html</source>
+<dest>/ucf-publish/purchase-new/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/purchase-new/index.js</source>
+<dest>/ucf-publish/purchase-new/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/single-query/index.html</source>
+<dest>/ucf-publish/single-query/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/single-query/index.js</source>
+<dest>/ucf-publish/single-query/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/table-edit/index.html</source>
+<dest>/ucf-publish/table-edit/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/table-edit/index.js</source>
+<dest>/ucf-publish/table-edit/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/tree-table/index.html</source>
+<dest>/ucf-publish/tree-table/</dest>
+</configUrl>
+<configUrl>
+<source>/ucf-publish/tree-table/index.js</source>
+<dest>/ucf-publish/tree-table/</dest>
+</configUrl>
+</configUrls>
+</project>
+
+
+

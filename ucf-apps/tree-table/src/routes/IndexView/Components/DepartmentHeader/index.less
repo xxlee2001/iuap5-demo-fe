@@ -1,0 +1,70 @@
+.department-header{
+
+    .tc-icon {
+        background: url('');
+    }
+
+    .ac-header-title{
+        color: #111;
+    }
+
+    &-checkbox{
+        margin-left: 16px;
+        .u-checkbox-label{
+            color: #111;
+            font-size: 13px;
+            line-height: 18px;
+        }
+    }
+
+    .position-to-left{
+        position: absolute;
+        left: 120px;
+
+        .container-refer {
+            width: 200px;
+        }
+    }
+    
+    .ac-header-btns{
+
+        .ac-split-button{
+            .u-button:hover,.icon-out:hover{
+                color: #e14c46;
+                background-color: #fff;
+                border-color: #e14c46;
+                z-index: 1;
+            }
+            
+            .icon-out{
+                bottom: -9px;
+                box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .u-button[disabled]{
+                background-color: #fff;
+                color: #CCC;
+                border: 1px solid #D0D0D0;
+            }
+        }
+    }
+
+    .container-refer {
+        display: inline-block;
+    }
+    
+}
+
+.department-header-menu{
+    .u-dropdown-menu-item{
+        &-disabled,&-disabled:hover{
+            color: #BFBFBF !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+/** 下拉箭头 */
+.split-button-enable .icon-out .uf-anglearrowdown {
+    line-height: unset !important;
+}

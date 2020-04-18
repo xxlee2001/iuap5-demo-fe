@@ -1,0 +1,59 @@
+{
+  "name": "ucf-webapp",
+  "version": "1.2.0",
+  "description": "开发思路：[大型企业应用在前端微应用视角下的思考](https://github.com/iuap-design/blog/issues/306)",
+  "main": "index.js",
+  "scripts": {
+    "start": "ucf-scripts start --homepage=standard --port=3003",
+    "build": "ucf-scripts build",
+    "build2": "node --max_old_space_size=9000 ./node_modules/.bin/ucf-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuap-design/ucf-webapp.git"
+  },
+  "author": "Yonyou FED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iuap-design/ucf-webapp/issues"
+  },
+  "homepage": "https://github.com/iuap-design/ucf-webapp#readme",
+  "devDependencies": {
+    "babel-polyfill": "6.26.0",
+    "copy-webpack-plugin": "5.0.4",
+    "fs-extra": "8.1.0",
+    "ignore-map-loader": "0.0.1",
+    "indexof": "0.0.1",
+    "redux-thunk": "2.3.0",
+    "tinper-bee": "2.3.4",
+    "ucf-request": "1.0.3",
+    "ucf-scripts": "1.2.4"
+  },
+  "dependencies": {
+    "@yonyou/mdf-refer": "2.2.87-alpha.1",
+    "ac-btns": "0.2.6",
+    "ac-datepicker": "0.0.6",
+    "ac-file-list": "^0.2.4",
+    "ac-form-layout": "0.1.4",
+    "ac-gridcn": "0.2.19",
+    "ac-gridcn-refer-field": "0.0.6",
+    "ac-header": "0.1.2",
+    "ac-search-cn": "0.1.7",
+    "ac-split-area": "0.0.4",
+    "ac-split-button": "0.0.7",
+    "ac-tips": "0.0.9",
+    "axios": "0.19.0",
+    "bee-datepicker": "2.2.12",
+    "bee-input-number": "2.2.20",
+    "bee-locale": "0.0.14",
+    "bee-modal": "2.1.10",
+    "bee-page-layout": "1.0.1",
+    "bee-table": "^2.2.38",
+    "classnames": "2.2.6",
+    "clone-deep": "4.0.1",
+    "mirrorx": "1.1.0",
+    "moment": "^2.24.0",
+    "react-intl": "2.9.0",
+    "uuid": "3.3.2"
+  }
+}
